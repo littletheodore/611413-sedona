@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Littletheodore](https://up.htmlacademy.ru/htmlcss/21/user/611413).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Альтигин](https://htmlacademy.ru/profile/artem).
 
 ---
 
