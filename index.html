@@ -5,8 +5,95 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo"><img src="img/logo.svg" width="" height="" alt="Логотип города Седона"></a>
+        <ul class="main-navigation-list">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo-video.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+   <main>
+     <h1 class="visually hidden">Добро пожаловать в Седону!</h1>
+     <section class="introduction">
+       <h2>Седона- небольшой городок в Аризоне, заслуживающий большего!</h2>
+       <p>Рассмотрим 5 причин, по которым СЕдона круче, чем Гранд Каньон!</p>
+     </section>
+     <section class="features">
+       <h2 class="visually hidden">Преимущества</h2>
+       <ul class="features-list">
+         <li class="features-list-motel">
+           <h3>Жилье</h3>
+           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+         </li>
+         <li class="features-list-food">
+           <h3>Еда</h3>
+           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+         </li>
+         <li class="features-list-souvenirs">
+           <h3>Сувениры</h3>
+           <p>Не только китайского, но и местного производства!</p>
+         </li>
+       </ul>
+      </section>
+     <section class="reasons">
+       <h2 class="visually hidden">Причины приехать в Седону</h2>
+       <ul class="reasons-list">
+         <li class="reasons-item">
+           <h3>Настоящий городок</h3>
+           <span class="reason-number">-№1-</span>
+           <p>Седона- не аттракцион для туристов, там течет своя жизнь</p>
+          <img src="img/town-photo.svg" width="" height="" alt="Городской ландшафт">
+         </li>
+         <li class="reasons-item">
+           <h3>Там есть мост дьявола</h3>
+           <span class="reason-number">-№2-</span>
+           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <img src="img/devil-bridge-photo.svg" width="" height="" alt="Мост дьявола">
+         </li>
+         <li class="reasons-item">
+           <h3>Небольшая площадь</h3>
+           <span class="reason-number">-№3-</span>
+           <p>Все достопримечательноти находятся очень близко</p>
+         </li>
+         <li class="reasons-item">
+           <h3>Красивая дорога</h3>
+           <span class="reason-number">-№4-</span>
+           <p>Ехать в Седону из Лас-Вегаса совсем нескучно!</p>
+         </li>
+         <li class="reasons-item">
+           <h3>Мало туристов</h3>
+           <span class="reason-number">-№5-</span>
+           <p>Большинство едет в Гранд Каньон и толпится там</p>
+         </li>
+     </section>
+     <section class="booking">
+       <h2 class="visually hidden">Поиск гостиницы в седоне</h2>
+       <b>Заинтересовались?</b>
+       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+       <button type="button" class="booking-hotel-searching">Поиск гостиницы в Седоне</button>
+       <img src="img/map.svg" width="" height="" alt="Карта Седоны">
+     </section>
+      <section class="hotel-searching-form">
+        <!--здесь допишу форму-->
+      </section>
+   </main>
+   <footer class="main-footer">
+     <a href=""><span class="main-footer-hashtag">#Visitsedona</span></a>
+     <div class="main-footer-social">
+       <ul class="main-footer-social-list">
+         <li><a href="">Twitter</a></li>
+         <li><a href="">Facebook</a></li>
+         <li><a href="">Youtube</a></li>
+       </ul>
+     </div>
+     <p class="main-footer-copyright">
+       <span>Website by</span>
+       <img src="img/copyright.svg" width="" height="" alt="HTML Academy">
+     </p>
+   </footer>
   </body>
 </html>
