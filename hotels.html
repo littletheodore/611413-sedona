@@ -8,7 +8,7 @@
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo"><img src="img/logo.svg" width="" height="" alt="Логотип города Седона"></a>
-        <ul class="main-navigation-list">
+        <ul>
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo-video.html">Фото и видео</a></li>
           <li><a href="map.html">Карта штата</a></li>
@@ -18,8 +18,30 @@
     </header>
    <main>
      <h1 class="visually-hidden">Поиск отелей в Седоне</h1>
-     <section class="hotels-searching-form">
-      <!--здесь допишу форму-->
+     <section class="hotels-selection">
+       <h2 class="visually-hidden">Параметры отеля</h2>
+      <form action="" method="post">
+      <ul class="hotels-selection-features">
+      <h3>Инфраструктура:</h3>
+        <li><label><input type="checkbox" name="features-pool" checked>Бассейн</label></li>
+        <li><label><input type="checkbox" name="features-parking">Парковка</label></li>
+        <li><label><input type="checkbox" name="features-wifi">Wi&#8209;fi</label></li>
+      </ul>
+      <ul class="hotels-selection-type">
+      <h3>Тип жилья:</h3>
+        <li><label><input type="checkbox" name="type-hotel" checked>Гостиница</label></li>
+        <li><label><input type="checkbox" name="type-motel" checked>Мотель</label></li>
+        <li><label><input type="checkbox" name="type-apartments" checked>Апартаменты</label></li>
+      </ul>
+      <h3>Стоимость в сутки (Р):</h3>
+      <div class="hotels-selection-price">
+        <b>от 0</b>
+        <b>до 3000</b>
+      </div>
+      <input type="range" min="0" max="4000" steps="500" name="left-part">
+      <input type="range" min="0" max="4000" steps="500" name="right-part">
+      <input type="submit" class="hotels-form-btn" value="Показать">
+      </form>
      </section>
      <section class="suitable-hotels">
        <h2 class="visually-hidden">Отели, подходящие под заданные параметры</h2>
@@ -32,47 +54,35 @@
        </ul>
        <ul class="suitable-hotels-list">
          <li class="suitable-hotels-item">
-           <h3>Amara Resort & SPA</h3>
-           <table class="suitable-hotels-parameters">
-             <tr>
-               <td>Гостиница</td>
-               <td>От 4000 р.</td>
-             </tr>
-             <tr>
-               <td><a class="suitable-hotels-description" href="amara.html">Подробнее</a></td>
-               <td><a class="suitable-hotels-booking" href="booking.html">Забронировать</a></td>
-             </tr>
-           </table>
+           <h3>Amara Resort &#38; SPA</h3>
+           <div class="suitable-hotels-parameters">
+               <span>Гостиница</span>
+               <span>От 4000 р.</span>
+               <a class="suitable-hotels-description" href="amara.html">Подробнее</a>
+               <a class="suitable-hotels-booking" href="booking.html">Забронировать</a>
+            </div>
            <img src="img/hotels-amara.svg" width="" height="" alt="Amara Hotel">
            <p class="suitable-hotels-rating">Рейтинг: 8,5</p>
          </li>
          <li class="suitable-hotels-item">
            <h3>Desert Quail Inn</h3>
-           <table class="suitable-hotels-parameters">
-             <tr>
-               <td>Мотель</td>
-               <td>От 3000 р.</td>
-             </tr>
-             <tr>
-               <td><a class="suitable-hotels-description" href="desert-quail-inn.html">Подробнее</a></td>
-               <td><a class="suitable-hotels-booking" href="booking.html">Забронировать</a></td>
-             </tr>
-           </table>
+           <div class="suitable-hotels-parameters">
+               <span>Мотель</span>
+               <span>От 3000 р.</span>
+              <a class="suitable-hotels-description" href="desert-quail-inn.html">Подробнее</a>
+              <a class="suitable-hotels-booking" href="booking.html">Забронировать</a>
+           </div>
            <img src="img/hotels-desert.svg" width="" height="" alt="Desert Quail Inn Hotel">
            <p class="suitable-hotels-rating">Рейтинг: 8,9</p>
          </li>
          <li class="suitable-hotels-item">
            <h3>Villas at poco diablo</h3>
-           <table class="suitable-hotels-parameters">
-             <tr>
-               <td>Апартаменты</td>
-               <td>От 2000 р.</td>
-             </tr>
-             <tr>
-               <td><a class="suitable-hotels-description" href="poco-diablo-apartments.html">Подробнее</a></td>
-               <td><a class="suitable-hotels-booking" href="booking.html">Забронировать</a></td>
-             </tr>
-           </table>
+           <div class="suitable-hotels-parameters">
+               <span>Апартаменты</span>
+               <span>От 2000 р.</span>
+               <a class="suitable-hotels-description" href="poco-diablo-apartments.html">Подробнее</a>
+               <a class="suitable-hotels-booking" href="booking.html">Забронировать</a>
+           </div>
            <img src="img/hotels-poco-diablo.svg" width="" height="" alt="Poco Diablo apartments">
            <p class="suitable-hotels-rating">Рейтинг: 9,2</p>
          </li>
@@ -82,7 +92,7 @@
    <footer class="main-footer">
      <a href=""><span class="main-footer-hashtag">#Visitsedona</span></a>
      <div class="main-footer-social">
-       <ul class="main-footer-social-list">
+       <ul>
          <li><a href="">Twitter</a></li>
          <li><a href="">Facebook</a></li>
          <li><a href="">Youtube</a></li>
