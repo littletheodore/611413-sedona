@@ -21,14 +21,14 @@
      <section class="hotels-selection">
        <form action="" method="post">
          <h2 class="visually-hidden">Параметры отеля</h2>
+         <h3>Инфраструктура:</h3>
            <ul class="hotels-selection-features">
-             <h3>Инфраструктура:</h3>
         <li><input type="checkbox" name="features-pool" id="features-pool" checked><label for="features-pool">Бассейн</label></li>
         <li><input type="checkbox" name="features-parking" id="features-parking"><label for="features-parking">Парковка</label></li>
         <li><input type="checkbox" name="features-wifi" id="features-wifi"><label for="features-wifi">Wi&#8209;fi</label></li>
       </ul>
-      <ul class="hotels-selection-type">
       <h3>Тип жилья:</h3>
+      <ul class="hotels-selection-type">
         <li><label><input type="checkbox" name="type-hotel" checked>Гостиница</label></li>
         <li><label><input type="checkbox" name="type-motel" checked>Мотель</label></li>
         <li><label><input type="checkbox" name="type-apartments" checked>Апартаменты</label></li>
@@ -38,8 +38,7 @@
         <b>от 0</b>
         <b>до 3000</b>
       </div>
-      <input type="range" min="0" max="4000" steps="500" name="left-part">
-      <input type="range" min="0" max="4000" steps="500" name="right-part">
+      <input type="range" min="0" max="4000" steps="500" name="range">
       <input type="submit" class="hotels-form-btn" value="Показать">
       </form>
      </section>
@@ -48,10 +47,13 @@
        <strong>Найдено: 3</strong>
        <h3>Сортировка</h3>
        <ul class="suitable-hotels-sorting">
-         <li>по цене</li>
-         <li>по типу</li>
-         <li>по рейтингу</li>
+         <li><button type="button" name="price">по цене</button></li>
+         <li><button type="button" name="type">по типу</button></li>
+         <li><button type="button" name="rating">по рейтингу</button></li>
+         <li><button type="button" name="top down">*</button></li>
+         <li><button type="button" name="down top">*</button></li>
        </ul>
+
        <ul class="suitable-hotels-list">
          <li class="suitable-hotels-item">
            <h3>Amara Resort &#38; SPA</h3>
