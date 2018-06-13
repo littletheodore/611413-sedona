@@ -1,0 +1,309 @@
+body {
+  padding:0;
+  margin:0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin:-1px;
+  border:0;
+  padding:0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.main-navigation ul,
+.features ul,
+.reasons ul,
+.footer-social ul,
+.suitable-hotels ul
+ {
+  list-style: none;
+}
+
+.main-navigation a:hover {
+   color: #81b3d2;
+}
+
+.main-navigation a:active {
+   color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation-hotels {
+   color: #766357;
+}
+
+.introduction h2 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.introduction p {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.features h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.reasons-item {
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #eeeeee;
+}
+
+.reasons-item h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+div.left-column,
+div.right-column {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.booking b {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.booking p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.index-search-btn {
+  color: #ffffff;
+  background-color: #766357;
+  border:0;
+  width: 570px;
+  height: 90px;
+}
+
+.index-search-btn:hover {
+  color: #ffffff;
+  background-color: #604e43;
+}
+
+.index-search-btn:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.hotels-searching-form label,
+.hotels-searching-form input[type="text"] {
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: none;
+}
+
+.hotels-searching-form input[type="text"] {
+  background-color: #f2f2f2;
+}
+
+.hotels-searching-form input[type="text"]:hover {
+  background-color: #ebebeb;
+}
+
+.hotels-searching-form input[type="text"]:active {
+  background-color: #ffffff;
+  border: 2px solid #e5e5e5;
+}
+
+.index-form-btn {
+  color: #ffffff;
+  background-color: #81b3d2;
+  width: 460px;
+  height: 60px;
+  border: 0;
+}
+
+.index-form-btn:hover {
+  background-color: #669ec0;
+}
+
+.index-form-btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #5496bd;
+}
+
+.footer {
+  background-color: #f9fbf6;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.inner-page {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.hotels-selection legend,
+.hotels-selection p {
+font-size: 16px;
+line-height: 21px;
+font-weight: bold;
+}
+
+.hotels-selection  {
+  color: #ffffff;
+  background-color: #424c52;
+  background-image: url("../img/hotels-background.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 1200px;
+  height: 220px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.hotels-form-btn {
+  color: #ffffff;
+  background-color: transparent;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  border: 2px solid #ffffff;
+  width: 135px;
+  height: 35px;
+}
+
+.hotels-form-btn:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.sorting {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dashed #81b3d2;
+}
+
+.sorting:hover {
+  color: #81b3d2;
+}
+
+.sorting:active {
+  color: #000000;
+  border: none;
+}
+
+.sorting.price {
+  color: #81b3d2;
+  border: none;
+}
+
+
+.suitable-hotels strong {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.suitable-hotels h3 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.hotels-item h3 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+a.hotels-name:hover{
+  color: #81b3d2;
+}
+
+a.hotels-name:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+p.hotels-rating {
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
+a.hotels-description,
+a.hotels-booking {
+  padding: 5px 15px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+a.hotels-description {
+  background-color: #81b3d2;
+}
+
+a.hotels-description:hover {
+  background-color: #669ec0;
+}
+
+a.hotels-description:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+a.hotels-booking {
+  background-color: #766357;
+}
+a.hotels-booking:hover {
+  background-color: #604e43;
+}
+
+a.hotels-booking:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
