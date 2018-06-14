@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона. Поиск отеля</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -32,9 +31,9 @@
       </fieldset>
       <fieldset class="selection-type">
       <legend>Тип жилья:</legend>
-        <label><input type="checkbox" name="type-hotel" checked>Гостиница</label>
-        <label><input type="checkbox" name="type-motel" checked>Мотель</label>
-        <label><input type="checkbox" name="type-apartments" checked>Апартаменты</label>
+        <input type="checkbox" name="type-hotel" checked><label for="type-hotel">Гостиница</label>
+        <input type="checkbox" name="type-motel" checked><label for="type-motel">Мотель</label>
+        <input type="checkbox" name="type-apartments" checked><label for="type-apartments">Апартаменты</label>
       </fieldset>
       <p>Стоимость в сутки (Р):</p>
       <div class="selection-price">
@@ -106,7 +105,7 @@
      </div>
      <p class="footer-copyright">
        <span>Website by</span>
-       <a href="https://up.htmlacademy.ru/htmlcss/21"><img src="img/copyright.png" width="115" height="41" alt="HTML Academy"></a>
+       <a class="icon-Academy" href="https://up.htmlacademy.ru/htmlcss/21"><img src="img/copyright.png" width="115" height="41" alt="HTML Academy"></a>
      </p>
    </footer>
   </body>
