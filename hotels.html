@@ -8,15 +8,19 @@
   </head>
   <body class="inner-page">
     <header class="header">
+        <div class="container">
       <nav class="main-navigation">
         <a class="header-logo"><img src="img/logo.png" width="138" height="70" alt="Логотип города Седона"></a>
         <ul>
           <li><a href="info.html">Информация</a></li>
           <li><a href="photo-video.html">Фото и видео</a></li>
+        </ul>
+        <ul>
           <li><a href="map.html">Карта штата</a></li>
-          <li ><a class="main-navigation-hotels">Гостиницы</a></li>
+          <li><a class="main-navigation-hotels" href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
+      </div>
     </header>
    <main>
      <h1 class="visually-hidden">Поиск отелей в Седоне</h1>
@@ -35,6 +39,7 @@
         <input type="checkbox" name="type-motel" checked><label for="type-motel">Мотель</label>
         <input type="checkbox" name="type-apartments" checked><label for="type-apartments">Апартаменты</label>
       </fieldset>
+      <div class="price-column">
       <p>Стоимость в сутки (Р):</p>
       <div class="selection-price">
         <span>от 0</span>
@@ -42,6 +47,7 @@
       </div>
       <input type="range" min="0" max="4000" steps="500" name="range">
       <input type="submit" class="btn hotels-form-btn" value="Показать">
+    </div>
       </form>
      </section>
      <section class="suitable-hotels">
@@ -59,8 +65,8 @@
        </ul>
        <ul class="hotels-list">
          <li class="hotels-item">
-           <a class="hotels-name" href="#"><h3>Amara Resort &#38; SPA</h3></a>
            <div class="hotels-parameters">
+           <a class="hotels-name" href="#"><h3>Amara Resort &#38; SPA</h3></a>
                <span>Гостиница</span>
                <span>От 4000 р.</span>
                <a class="hotels-description" href="amara.html">Подробнее</a>
@@ -70,9 +76,9 @@
            <p class="hotels-rating">Рейтинг: 8,5</p>
          </li>
          <li class="hotels-item">
-           <a class="hotels-name" href="#"><h3>Desert Quail Inn</h3></a>
            <div class="hotels-parameters">
-               <span>Мотель</span>
+           <a class="hotels-name" href="#"><h3>Desert Quail Inn</h3></a>
+                          <span>Мотель</span>
                <span>От 3000 р.</span>
               <a class="hotels-description" href="desert-quail-inn.html">Подробнее</a>
               <a class="hotels-booking" href="booking.html">Забронировать</a>
@@ -81,8 +87,8 @@
            <p class="hotels-rating">Рейтинг: 8,9</p>
          </li>
          <li class="hotels-item">
-           <a class="hotels-name" href="#"><h3>Villas at poco diablo</h3></a>
            <div class="hotels-parameters">
+           <a class="hotels-name" href="#"><h3>Villas at poco diablo</h3></a>
                <span>Апартаменты</span>
                <span>От 2000 р.</span>
                <a class="hotels-description" href="poco-diablo-apartments.html">Подробнее</a>
@@ -95,6 +101,7 @@
      </section>
    </main>
    <footer class="footer">
+     <div class="footer-wrapper">
      <a href="" class="footer-hashtag">#Visitsedona</a>
      <div class="footer-social">
        <ul>
@@ -107,6 +114,7 @@
        <span>Website by</span>
        <a class="icon-Academy" href="https://up.htmlacademy.ru/htmlcss/21"><img src="img/copyright.png" width="115" height="41" alt="HTML Academy"></a>
      </p>
+   </div>
    </footer>
   </body>
 </html>
