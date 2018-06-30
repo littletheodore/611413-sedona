@@ -241,6 +241,7 @@ li.features-souvenirs::before{
   border:0;
   padding: 30px 140px 30px;
   margin: 0 auto;
+
 }
 .index-search-btn:hover,
 .index-search-btn:focus {
@@ -262,13 +263,19 @@ div.form-wrapper {
 }
 form.hotels-searching {
   width: 568px;
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 54px 55px;
   margin: 0 auto;
   background-color: #fff;
 }
+.form-off {
+  display: none;
+}
+.form-on {
+  display: flex;
+}
+
 .hotels-searching label,
 .hotels-searching input[type="text"] {
   font-family: inherit;
