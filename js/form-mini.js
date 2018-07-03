@@ -1,0 +1,1 @@
+var button=document.querySelector(".index-search-btn"),form=document.querySelector(".hotels-searching");button.addEventListener("click",function(e){e.preventDefault(),form.classList.toggle("form-on")});
