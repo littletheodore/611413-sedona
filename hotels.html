@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона. Поиск отеля</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
-    <link rel="stylesheet" href="css/style-mini.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="inner-page">
     <header class="header">
@@ -26,15 +26,15 @@
             <h2 class="visually-hidden">Параметры отеля</h2>
             <fieldset class="features-select">
               <legend>Инфраструктура:</legend>
-              <input type="checkbox" name="features-pool" id="features-pool" checked><label for="features-pool">Бассейн</label>
-              <input type="checkbox" name="features-parking" id="features-parking"><label for="features-parking">Парковка</label>
-              <input type="checkbox" name="features-wifi" id="features-wifi" disabled><label for="features-wifi">Wi&#8209;fi</label>
+              <input type="checkbox" name="features-pool" id="features-pool" checked><label for="features-pool" tabindex="0">Бассейн</label>
+              <input type="checkbox" name="features-parking" id="features-parking" ><label for="features-parking" tabindex="0">Парковка</label>
+              <input type="checkbox" name="features-wifi" id="features-wifi" disabled><label for="features-wifi" tabindex="0">Wi&#8209;fi</label>
             </fieldset>
             <fieldset class="type-select">
                <legend>Тип жилья:</legend>
-               <input type="checkbox" name="type-hotel" id="type-hotel" checked><label for="type-hotel">Гостиница</label>
-               <input type="checkbox" name="type-motel" id="type-motel" checked><label for="type-motel">Мотель</label>
-               <input type="checkbox" name="type-apartments" id="type-apartments" checked><label for="type-apartments">Апартаменты</label>
+               <input type="checkbox" name="type-hotel" id="type-hotel" checked><label for="type-hotel" tabindex="0">Гостиница</label>
+               <input type="checkbox" name="type-motel" id="type-motel" checked><label for="type-motel" tabindex="0">Мотель</label>
+               <input type="checkbox" name="type-apartments" id="type-apartments" checked><label for="type-apartments" tabindex="0">Апартаменты</label>
             </fieldset>
             <div class="price-select">
               <p>Стоимость в сутки (Р):</p>
@@ -66,10 +66,10 @@
                <a href="#">по рейтингу</a>
              </div>
              <div class="arrows">
-               <a class="arrow-up" name="up-sorting" href="#">
+               <a class="arrow-up" name="up-sorting" href="#"><span class="visually-hidden">Сортировка от меньшего к большему</span>
                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
                </a>
-               <a class="arrow-down" name="down-sorting" href="#">
+               <a class="arrow-down" name="down-sorting" href="#"><span class="visually-hidden">Сортировка от большего к меньшему</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg>
                </a>
              </div>

@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style-mini.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header">
@@ -102,15 +102,15 @@
           </div>
           <div class="half-width-input adults">
             <label for="adults">Взрослые:</label>
-            <div class="icon minus"></div>
+            <button type="button" class="icon minus"><span class="visually-hidden">Уменьшить на 1</span></button>
             <input type="text" name="adults" id="adults" value="2">
-            <div class="icon plus"></div>
+            <button type="button" class="icon plus"><span class="visually-hidden">Увеличить на 1</span></button>
           </div>
           <div class="half-width-input children">
             <label for="children">Дети:</label>
-            <div class="icon minus"></div>
+            <button type="button" class="icon minus"><span class="visually-hidden">Уменьшить на 1</span></button>
             <input type="text" name="children" id="children" value="0">
-            <div class="icon plus"></div>
+            <button type="button" class="icon plus"><span class="visually-hidden">Увеличить на 1</span></button>
           </div>
           <input type="submit" class="btn index-form-btn" value="Найти">
         </form>
